@@ -29,25 +29,25 @@ body {
 }
 
 .heading {
-    font-family: 'Kanit';
-    font-size: 30px;
-    color: rgb(0, 122, 192);
+    font-size: 25px;
+    color: rgb(255, 115, 0);
+    margin-bottom: 20px;
+    margin-right: 15px;
 }
 
 .container {
-    width: 385px;
+    width: 380px;
     height: 500px;
-    border: 1px solid;
     padding: 5px;
 }
 
 .lines {
     font-size: 20px;
-    color: rgb(0, 119, 199);
+    color: rgb(0, 102, 170);
 }
 
 span {
-    color: rgb(16, 196, 0);
+    color: rgb(255, 0, 234);
     font-size: 20px;
     font-weight: 500;
 }
@@ -70,6 +70,7 @@ span {
 
 .buttons:active {
     box-shadow: none;
+    font-size: 15px;
 }
 
 #check1, #check2, #check3, #check4, #check5, #check6 {
