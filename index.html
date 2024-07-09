@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Touchstone 1 - Exercise 2</title>
+</head>
+<body>
+    <audio id="correctSound" src="correct.wav"></audio>
+    <audio id="click" src="click.wav"></audio>
+    <audio id="wrong" src="wrongSound.wav"></audio>
+
+    <!--LINE O1-->
+
+    <div class="heading">Choose the correct option</div>
+
+    <div class="container">
+
+        <div class="lines">A: <span class="span" id="answer_1">___</span> you here for an English class? <img id="check1" src="correct.png" width="30" alt=""></div>
+
+            <button class="buttons" id="btn1Am">Am</button>
+            <button class="buttons" id="btn1Are">Are</button>
+            <button class="buttons" id="btn1Is">Is</button>
+
+         <!--LINE O2-->
+
+         <div class="lines">B: Yes, I <span class="span" id="answer_2">___</span>. I'm Carmen Lee. <img id="check2" src="correct.png" width="30" alt=""></div>
+
+        
+             <button class="buttons" id="btn2Am">am</button>
+             <button class="buttons" id="btn2Are">are</button>
+             <button class="buttons" id="btn2Is">is</button>
+        
+
+           <!--LINE O3-->
+
+           <div class="lines">A: Alright, Ms. Lee. You<span class="span" id="answer_3">___</span> in room B. <img id="check3" src="correct.png" width="30" alt=""></div>
+
+           
+               <button class="buttons" id="btn3Am">'m</button>
+               <button class="buttons" id="btn3Are">'re</button>
+               <button class="buttons" id="btn3Is">'s</button>
+
+                <!--LINE O4-->
+
+           <div class="lines">B: <span class="span" id="answer_4">___</span> my sister Carla in room B too? <img id="check4" src="correct.png" width="30" alt=""></div>
+
+           
+           <button class="buttons" id="btn4Am">Am</button>
+           <button class="buttons" id="btn4Are">Are</button>
+           <button class="buttons" id="btn4Is">Is</button>
+
+                <!--LINE O5-->
+
+           <div class="lines">B: No, she<span class="span" id="answer_5">___</span> not. She's in room A.<img id="check5" src="correct.png" width="30" alt=""></div>
+
+           
+           <button class="buttons" id="btn5Am">'m</button>
+           <button class="buttons" id="btn5Are">'re</button>
+           <button class="buttons" id="btn5Is">'s</button>
+
+                     <!--LINE O5-->
+
+           <div class="lines">B: Oh, no! We<span class="span" id="answer_6">___</span> not in the same class.<img id="check6" src="correct.png" width="30" alt=""></div>
+
+           
+           <button class="buttons" id="btn6Am">'m</button>
+           <button class="buttons" id="btn6Are">'re</button>
+           <button class="buttons" id="btn6Is">'s</button>
+          
+
+    </div>
+
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
