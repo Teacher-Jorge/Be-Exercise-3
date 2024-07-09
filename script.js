@@ -134,7 +134,7 @@ btn3Is.addEventListener('click', function() {
 let btn4Are = document.getElementById('btn4Are')
 let btn4Am = document.getElementById('btn4Am')
 let btn4Is = document.getElementById('btn4Is')
-check3 = document.getElementById('check4')
+check4 = document.getElementById('check4')
 let answer_4 = document.getElementById('answer_4')
 
 btn4Is.addEventListener('click', function() {
